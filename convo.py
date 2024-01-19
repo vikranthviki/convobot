@@ -13,7 +13,6 @@ from datasets import load_dataset
 from peft import LoraConfig, PeftModel
 
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.document_transformers import Html2TextTransformer
 from langchain.document_loaders import AsyncChromiumLoader
 
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
