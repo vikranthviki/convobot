@@ -4,4 +4,4 @@ langchain_community==0.0.13
 peft==0.7.1
 torch==2.1.2
 transformers==4.36.2
-chroma==0.4.22
+chromadb==0.4.22
