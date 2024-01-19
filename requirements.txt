@@ -5,3 +5,4 @@ peft==0.7.1
 torch==2.1.2
 transformers==4.36.2
 chromadb==0.4.22
+bitsandbytes==0.42.0
