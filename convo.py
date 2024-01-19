@@ -63,20 +63,13 @@ bnb_config = BitsAndBytesConfig(
 )
 
 # Check GPU compatibility with bfloat16
-if compute_dtype == torch.float16 and use_4bit:
-    major, _ = torch.cuda.get_device_capability()
-    if major >= 8:
-        print("=" * 80)
-        print("Your GPU supports bfloat16: accelerate training with bf16=True")
-        print("=" * 80)
+
 
 #################################################################
 # Load pre-trained config
 #################################################################
 model = AutoModelForCausalLM.from_pretrained(
-    model_name,
-    quantization_config=bnb_config,
-)
+    model_name)
 
 text_generation_pipeline = pipeline(
     model=model,
