@@ -13,10 +13,8 @@ from datasets import load_dataset
 from peft import LoraConfig, PeftModel
 
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.document_loaders import AsyncChromiumLoader
 
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
-from langchain.vectorstores import FAISS
 
 from langchain.prompts import PromptTemplate
 from langchain.schema.runnable import RunnablePassthrough
