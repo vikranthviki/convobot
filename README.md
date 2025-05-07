@@ -1,7 +1,7 @@
 
-## Pension Chatbot
+## Pensioners Chatbot
 
-This project is a Retrieval-Augmented Generation (RAG) based chatbot designed specifically for pensioners, leveraging the Mistral 7B LLM, ChromaDB, and LangChain. The bot efficiently answers queries related to central government pension schemes by retrieving relevant information and generating context-aware responses.
+This project is a Retrieval-Augmented Generation (RAG) (HYDE principle)based chatbot designed specifically for pensioners, leveraging the Mistral 7B LLM, ChromaDB, and LangChain. The bot efficiently answers queries related to central government pension schemes by retrieving relevant information and generating context-aware responses.
 
 ### Key Features
 - **RAG Architecture:** Combines document retrieval with generative AI for accurate and personalized responses.
